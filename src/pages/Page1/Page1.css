@@ -1,0 +1,218 @@
+@import "../../App.css";
+
+:root {
+    --darkgray: rgb(247 243 239);
+}
+
+/* .container {
+    margin-left: 75px;
+    margin-right: 75px;
+} */
+
+body {
+    height: auto;
+    background-color: rgb(247, 243, 239);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 35% 15% 18% 10%;
+    grid-template-areas:
+        "trip logo kabob"
+        "section section section"
+        "sec1 sec2 sec3"
+        "info info info"
+        "cancel cancel cancel";
+        color: rgb(63 56 37);
+}
+
+.trip {
+    grid-area: trip;
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    font-family: Linotype, Regular;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.logo {
+    grid-area: logo;
+    margin-top: 25px;
+    height: 25px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.kabob {
+    grid-area: kabob;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+.main-section {
+    margin-top: 15px;
+    grid-area: section;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.time {
+    font-family: PxGrotesk;
+    font-size: 75px;
+    margin: 0;
+}
+
+.pm {
+    font-size: 25px;
+    margin-left: 0;
+}
+
+.estimated {
+    margin: 0;
+    font-weight: 500;
+}
+
+.item-info {
+    color: rgb(108 104 91);
+    font-family: PxGrotesk, Bold;
+    font-weight: 1000;
+    margin-top: 5px;
+}
+
+.sec1 {
+    grid-area: sec1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-icon {
+    margin-left: 8px;
+}
+
+.info-item {
+    color: rgb(119 119 119);
+}
+
+.sec2 {
+    grid-area: sec2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sec3 {
+    grid-area: sec3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info {
+    grid-area: info;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dfw-info {
+    color: rgb(63 56 37);
+    font-family: Linotype, Regular;
+    font-weight: 750;
+}
+
+.address {
+    margin: 0;
+}
+
+.edit {
+    margin-left: 5px;
+}
+
+.cancel {
+    grid-area: cancel;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxed {
+        border: 2px solid rgb(217 216 203) ;
+        width: 300px;
+        height: 30px;
+        text-align: center;
+
+}
+
+.cancel-text {
+    padding: 0;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.line {
+    opacity: 0.2;
+    width: 115px;
+    background-color: var(--darkgray);
+}
+
+.line2 {
+    opacity: 0.2;
+}
+
+
+@media screen and (min-width: 1100px) {
+    .trip {
+        font-size: 35px;
+    }
+
+    .time {
+        font-size: 60px;
+    }
+
+    .kabob {
+        margin-left: 325px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .trip {
+        margin-left: 100px;
+    }
+
+    .main-section {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        grid-template-rows: 28% 20% 20% 25% 20%;
+    }
+
+    .trip {
+        margin-left: 25px;
+    }
+
+    .main-section {
+        margin-left: 25px;
+    }
+
+    .estimated {
+        font-size: 13px;
+    }
+
+    .info {
+        margin-left: 25px;
+    }
+
+    .line2 {
+        width: 100px;
+        margin-left: 2px;
+    }
+}

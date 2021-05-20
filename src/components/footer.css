@@ -1,0 +1,63 @@
+@import "../App.css";
+
+.Footer {
+    display: grid;
+    grid-template-areas: "profile info vibes";
+    background-color: rgb(247, 243, 239);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(108 104 91);
+}
+
+.line-footer {
+    opacity: 0.2;
+    margin: 0;
+    width: 100%;
+    background-color: var(--darkgray);
+}
+
+.profile-img {
+    grid-area: profile;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.profile {
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;
+}
+
+.footer-info {
+    grid-area: info;
+    text-align: center;
+}
+
+.dfw {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Linotype, Regular;
+    font-size: 18px;
+    font-weight: 750;
+}
+
+.eta {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.vibes-img {
+    grid-area: vibes;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.vibes {
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;
+}

@@ -1,0 +1,156 @@
+@import "../../App.css";
+
+body {
+    background-color: rgb(247, 243, 239);
+    color: rgb(63 56 37);
+    font-family: PxGrotesk;
+    height: auto;
+}
+
+.main-page2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+
+.driver {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.driver-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -60px;
+}
+
+.logo2 {
+    margin-top: 5px;
+    margin-left: -25px;
+    position: absolute;
+    z-index: 2;
+}
+
+.kabob2 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 450px;
+    margin-top: 5px;
+}
+
+.info-page2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.driver-info {
+    color: rgb(172, 130, 109);
+    font-size: 12px;
+    font-family: PxGrotesk;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.name {
+    font-size: 75px;
+    font-family: PxGrotesk;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px; 
+}
+
+.description {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+}
+
+.boxed-page2 {
+    border: 2px solid rgb(217 216 203) ;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.contact-text {
+    padding: 0;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.line-page2 {
+    margin-top: 0;
+    opacity: 0.2;
+    width: 450px;
+    background-color: var(--darkgray);
+}
+
+@media screen and (min-width: 1200px) {
+    .driver {
+        height: 450px;
+    }
+
+    .contact {
+        margin-top: 75px;
+    }
+
+    .driver-img {
+        top: -275px;
+    }
+
+    .name {
+        margin: 0;
+    }
+
+    .description {
+        margin: 0;
+    }
+
+    .logo2 {
+        margin-top: 10px;
+        margin-left: -35px;
+        height: 25px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .driver-img {
+        top: -120px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contact {
+        margin-top: 150px;
+    }
+
+    .driver-img {
+        top: -40px;
+        height: 100%;
+    }
+
+    .logo2 {
+        margin-left: -15px;
+    }
+
+    .kabob2 {
+        margin-left: 300px;
+    }
+}
