@@ -35,5 +35,11 @@ URL: https://alto-project.netlify.app/
   yarn start
   ```
   
-- With any luck, there will be all sorts of console spew for a few moments, followed by your browser window opening with the Application. Hooray!
+- With any luck, there will be all sorts of console spew for a few moments, followed by your browser window opening with the Application.
+  - If your browser window does not open, input this url in to any browser:
+    ```
+    localhost:3000/page1
+    ```
+ 
+-    Hooray! You are now viewing Ashley's Alto Project! 😎
 
