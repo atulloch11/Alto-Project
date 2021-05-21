@@ -77,7 +77,7 @@ body {
 
 .contact {
     display: flex;
-    margin-top: 55px;
+    margin-top: 40px;
     justify-content: center;
 }
 
@@ -107,7 +107,7 @@ body {
     }
 
     .contact {
-        margin-top: 75px;
+        margin-top: 50px;
     }
 
     .driver-img {
@@ -138,7 +138,7 @@ body {
 
 @media screen and (max-width: 375px) {
     .contact {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     .driver-img {
@@ -152,5 +152,9 @@ body {
 
     .kabob2 {
         margin-left: 300px;
+    }
+
+    .line-page2 {
+        width: 200px;
     }
 }

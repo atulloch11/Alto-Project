@@ -12,7 +12,8 @@ const Page4 = () => {
         <div className="main-page2">
             <div className="picture-page4">
                 <ImageDiv image={map}
-                            description={"Map"} />    
+                            description={"Map"}
+                            isPage4={true} />
             </div>        
 
             <div className="info-page4">

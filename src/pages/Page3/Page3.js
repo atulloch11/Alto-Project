@@ -11,7 +11,8 @@ const Page3 = () => {
         <body>
             <div className="picture-page3">
                 <ImageDiv image={car}
-                        description={"Car"} />
+                        description={"Car"}
+                        isPage4={false} />
              </div>
 
             <div className="info-page2">

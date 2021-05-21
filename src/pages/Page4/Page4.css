@@ -8,6 +8,12 @@
     margin-bottom: 8px;
 }
 
+.map-icon {
+    position: fixed;
+    top: 350px;
+    right: 170px;
+}
+
 .info-page4 {
     margin-left: 15px;
 }

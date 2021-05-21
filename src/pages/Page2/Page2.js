@@ -13,7 +13,8 @@ const Page2 = () => {
         <body>
         <div className="main-page2">
             <ImageDiv image={Image}
-                    description={"Driver"} />
+                    description={"Driver"}
+                    isPage4={false} />
 
             <div className="info-page2">
                 <div className="driver-info">

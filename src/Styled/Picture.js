@@ -47,4 +47,16 @@ const Kabob = styled.div`
     }
 `;
 
-export { PicDiv, Logo, Image, Kabob };
+const MapIcon = styled.div`
+    grid-column: 3 / 3;
+    position: absolute;
+    z-index: 2;
+    right: 150px;
+    top: 350px;
+
+    @media screen and (max-width: 650px) {
+        right: 25px;
+    }
+`;
+
+export { PicDiv, Logo, Image, Kabob, MapIcon };
